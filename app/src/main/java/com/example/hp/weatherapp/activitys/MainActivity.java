@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     @Override
     public void onItemClick(View v, int position) {
         switch (v.getId()) {
-            case R.id.tv_temp:
+            case R.id.relative_l:
                 WeatherDetailFragment weatherDetailFragment = WeatherDetailFragment.newInstance(lists.get(position));
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                 transaction.add(R.id.main_container, weatherDetailFragment).addToBackStack(null).commit();

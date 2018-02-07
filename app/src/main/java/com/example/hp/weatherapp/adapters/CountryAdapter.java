@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.hp.weatherapp.R;
@@ -65,6 +66,7 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.MyViewHo
         private TextView tv_temp;
         private TextView tv_district;
         private TextView tv_date;
+        private RelativeLayout rl_row;
 
         public MyViewHolder(View itemView) {
             super(itemView);
@@ -73,9 +75,8 @@ public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.MyViewHo
             tv_temp = itemView.findViewById(R.id.tv_temp);
             tv_date = itemView.findViewById(R.id.tv_date);
             tv_district = itemView.findViewById(R.id.tv_district);
-            tv_country.setOnClickListener(this);
-            tv_district.setOnClickListener(this);
-            tv_temp.setOnClickListener(this);
+            rl_row = itemView.findViewById(R.id.relative_l);
+            rl_row.setOnClickListener(this);
         }
 
         @Override
