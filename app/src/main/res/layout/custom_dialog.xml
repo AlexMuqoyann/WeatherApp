@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#5b95e6"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         <TextView
+             android:layout_gravity="center"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="25dp"
+             android:text="Yerevan"
+             android:textColor="@android:color/white"
+             android:id="@+id/cd_tv_country"
+             android:textSize="20dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+
+              <TextView
+                  android:layout_marginLeft="25dp"
+                  android:textColor="@android:color/white"
+                  android:text="tempmin"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+              <TextView
+                  android:text="21"
+                  android:layout_marginLeft="20dp"
+                  android:id="@+id/cd_tv_temp_min"
+                  android:textColor="@android:color/white"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+              <TextView
+                  android:text="tempMax"
+                  android:textColor="@android:color/white"
+                  android:layout_marginLeft="25dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+              <TextView
+                  android:id="@+id/cd_temp_max"
+                  android:text="30"
+                  android:layout_marginLeft="18dp"
+                  android:layout_marginTop="10dp"
+                  android:textColor="@android:color/white"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+         </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+         <TextView
+             android:text="Sunrise"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="25dp"
+             android:textColor="@android:color/white"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+         <TextView
+             android:id="@+id/cd_tv_sunrise"
+             android:text="18.0"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="25dp"
+             android:textColor="@android:color/white"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+    </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+
+              <TextView
+                  android:text="Sunset"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="27dp"
+                  android:textColor="@android:color/white"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+              <TextView
+                  android:id="@+id/cd_tv_sunset"
+                  android:text="18.0"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="25dp"
+                  android:textColor="@android:color/white"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+              <TextView
+                  android:textColor="@android:color/white"
+                  android:layout_marginTop="8dp"
+                  android:layout_marginLeft="28dp"
+                  android:text="today"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+              <TextView
+                  android:id="@+id/cd_tv_today"
+                  android:text="07.02.2018"
+                  android:layout_marginLeft="35dp"
+                  android:layout_marginTop="8dp"
+                  android:textColor="@android:color/white"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" />
+
+               <ImageView
+                   android:layout_marginLeft="20dp"
+                   android:src="@drawable/ic_sun"
+                   android:layout_marginTop="5dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+         </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
